@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body style="font-family: 'Roboto', sans-serif; margin: 0; padding: 0; background-color: #f4f4f9; color: #333;">
+    <div style="max-width: 600px; margin: auto; background: #ffffff; border-radius: 10px;  overflow: hidden;">
+       
+        <div style="background: linear-gradient(to right, #4CAF50, #8BC34A); padding: 20px; text-align: center; color: #fff;">
+            <h1 style="font-size: 24px; margin: 0;">Application Update</h1>
+            <p style="font-size: 16px; margin: 0;">{{ocx_month_name}} {{ocx_day}}, {{ocx_year}}</p>
+        </div>
+      
+        <div style="padding: 20px; text-align: left;">
+            <p style="font-size: 18px; font-weight: 600; margin-bottom: 10px;">Hello {{first_name}},</p>
+            <p style="font-size: 16px; line-height: 1.6; margin: 0;">
+                We are excited to inform you that our team has successfully reviewed your application and all the provided documents. Please check your application details and confirm to proceed to the next steps.
+            </p>
+           
+            <div style="margin-top: 20px; text-align: center;">
+                <a href="link" style="background: #FF5722; color: white; text-decoration: none; padding: 12px 20px; border-radius: 25px; font-weight: bold; font-size: 16px; margin: 5px;">Review</a>
+                <a href="link" style="background: #4CAF50; color: white; text-decoration: none; padding: 12px 20px; border-radius: 25px; font-weight: bold; font-size: 16px; margin: 5px;">Confirm</a>
+            </div>
+        </div>
+
+        <div style="padding: 20px; background-color: #f4f4f9;">
+            <table style="width: 100%; border-collapse: collapse;">
+                <tr>
+                    <td style="padding: 10px; font-weight: bold; color: #4CAF50;">Name:</td>
+                    <td style="padding: 10px; text-align: right;">{{first_name}} {{last_name}}</td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px; font-weight: bold; color: #4CAF50;">Email:</td>
+                    <td style="padding: 10px; text-align: right;"><a href="mailto:{{email}}" style="color: #333; text-decoration: none;">{{email}}</a></td>
+                </tr>
+            </table>
+        </div>
+       
+        <div style="padding: 15px; text-align: center; font-size: 12px; color: #666; background-color: #e0e0e0;">
+            This notification email has been sent to you at
+            <a style="color: #666; text-decoration: none;" href="{{email}}">
+                {{email}}. </a>
+            To unsubscribe, please click <a
+              href = "https://affiliates.unsubstation.com/unsubscribe/AAFrzNjRhs7BHTI6PUShy8rlcuU7V5f6vjY4Om3mHFvSFJV1IV8blFfSA40SnracxFaLfF-3kkujPcTn_kNuJ2tRL-Sicj0KMr4YXEkuULQjm13SvEq7F-MPYMh8L1yAl-E="
+                style="color:#666;">here</a>
+            or our address is: 1309 E 3rd Ave Suite 202 Durango, CO 81301
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Used3.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <h2>Application Update</h2>
+            <p> {{ocx_month_name}} {{ocx_day}} {{ocx_year}} </p>
+        </div>
+        <div class="content">
+            <h3>Hello {{first_name}},</h3>
+            <p>We are excited to inform you that our team has successfully reviewed your application and all the
+                provided documents. Please check your application details and confirm to proceed to the next steps.</p>
+            <div class="btns">
+                <a href="">Review</a>
+                <a href="">Confirm</a>
+            </div>
+        </div>
+
+        <div class="table">
+            <table>
+                <tr>
+                    <th>Name :</th>
+                    <td> {{first_name}} {{last_name}} </td>
+                </tr>
+                <tr>
+                    <th>Email :</th>
+                    <td> <a href="" style="text-decoration: none; color: black;">{{email}} </a></td>
+                </tr>
+            </table>
+        </div>
+        <div class="foot">
+            This notification email has been sent to you at <a href=""
+                style="text-decoration: none;   color: black;">{{email}}</a> . To unsubscribe, please click <a
+                href="">here</a> or our address is: 1309 E 3rd Ave Suite 202 Durango, CO 81301
+        </div>
+    </div>
+</body>
+
+</html>

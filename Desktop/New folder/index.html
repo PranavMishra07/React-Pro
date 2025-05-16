@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            Hello {{first_name}}
+            <div class="border"></div>
+        </div>
+        <div class="date_div">
+            <div class="date">
+                Date : {{ocx_month}} {{ocx_day}} {{ocx_year}}
+            </div>
+        </div>
+        <div class="content">
+            <div class="text">
+                This email is meant to let you know that in order for the application to proceed, a few document must be
+                uploaded.This is the best time to complete the procedure and get the desired outcome on time.
+            </div>
+        </div>
+        <div class="table">
+            <table>
+                <tbody>
+                <tr>
+                    <th>Name :</th>
+                    <td> {{first_name}} {{last_name}} </td>
+                </tr>
+                <tr>
+                    <th>Email :</th>
+                    <td> <a href="pranav072003@gmail.com" style="text-decoration: none;"> {{email}} </a> </td>
+                </tr>
+                <tr>
+                    <th>Pending Document :</th>
+                    <td><a href="#"> VIEW HERE </a></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="upload">
+            <a href="#">UPLOAD</a>            
+        </div>
+        <hr>
+        <div class="foot">
+            The notification email sent to you at<a href="" style="text-decoration: none;"> {{email}}.</a>To unsubscribe. please click  <a href="">here</a> or our address is :1209E 3rd avennue suite 202 Bhopal,India 1212
+        </div>
+
+    </div>
+</body>
+
+</html>

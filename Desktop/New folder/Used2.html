@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Used2.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <h2>Welcome,{{first_name}}</h2> 
+        <p>Your Application Has Been Received  </p>
+        </div>
+        <div class="content">
+            <table>
+                <tbody>
+                    <tr>
+                        <th>Name </th>
+                        <td> {{first_name}} {{last_name}} </td>
+                    </tr>
+                    <tr>
+                        <th>Email </th>
+                        <td><a href="#" style="text-decoration: none; color: black;"> {{email}} </a></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="text">
+                We appreciate your submission! Based on your details, we've tailored solutions to suit your needs. Click below to explore or proceed:
+            </div>
+            <div class="btns">
+                <button><a href="">Explore Options</a></button>
+                <button><a href="">Proceed</a></button>
+            </div>
+        </div>
+        <div class="foot">
+            This notification email has been sent to you at <a href="">{{email}}</a>. To unsubscribe, please click <a href="">here</a>  or our address is: 1309 E 3rd Ave Suite 202 Durango, CO 81301
+        </div>
+    </div>
+</body>
+</html>
